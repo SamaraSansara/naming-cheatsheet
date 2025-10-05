@@ -1,14 +1,15 @@
-NU nano 7.2                           
+N_MAX = 15
 
 def read_array():
-    arr = list()
     n = int(input("Enter number of elements:"))
+    if n > N_MAX:
+        print(f"Error: Maximum {N_MAX} elements allowed.")
+        return None
     print("Enter elements:")
-    i = 0
-    while i < n:
+    arr = []
+    for _ in range(n):
         tmp = int(input(""))
         arr.append(tmp)
-        i += 1
     return arr
 
 def print_array(arr):
@@ -19,5 +20,6 @@ def print_array(arr):
 
 # main
 arr = read_array()
-print_array(arr)
+if arr is not None:
+    print_array(arr)
 
