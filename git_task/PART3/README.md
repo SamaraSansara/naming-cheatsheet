@@ -1,3 +1,5 @@
+<<<<<<< HEAD
 GGFGFGGFGFGGFFGGFGFGGFGFGGFGFG
 гввгвггввгрврвр
 jfjfjjfjjfjfjfjjffjfjjfj
+
