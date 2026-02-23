@@ -1,1 +1,2 @@
 NEW clone 1
+NEW clone 2
